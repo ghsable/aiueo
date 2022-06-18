@@ -7,10 +7,10 @@ aiueo is lol.
 ##### Phase 1
 ![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg?token=GHSAT0AAAAAABSOVKPWKUT5IH6GIZ4NBKKAYVNNRBA)  
 ![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg?token=GHSAT0AAAAAABSOVKPW7C2TNS6YDVR4ARE4YVNNUAQ)  
-- ①App
-  - ②SearchBar
-  - ③ProductTable
-    - ④ProductValue
+- ① App
+  - ② SearchBar
+  - ③ ProductTable
+    - ④ ProductValue
 
 # Getting Started with Create React App
 
