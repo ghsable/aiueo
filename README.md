@@ -1,3 +1,10 @@
+# aiueo
+aiueo is lol.
+
+## Dev
+### Architecture
+#### Mock
+##### Phase 1
 ![mock01.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/mock01.svg?token=GHSAT0AAAAAABSOVKPX3L55FWMYJCZTTF2OYVNMLUQ)
 
 # Getting Started with Create React App
