@@ -5,8 +5,8 @@ aiueo is lol.
 ### Architecture
 #### Mock
 ##### Phase 1
-![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg?token=GHSAT0AAAAAABSOVKPWKUT5IH6GIZ4NBKKAYVNNRBA)  
-![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg?token=GHSAT0AAAAAABSOVKPW7C2TNS6YDVR4ARE4YVNNUAQ)  
+![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg?token=GHSAT0AAAAAABSOVKPXXIK6MHLIG6S5RVRYYVNOCEA)  
+![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg?token=GHSAT0AAAAAABSOVKPXPVIA7INMMBRMBZM4YVNOCVA)  
 - ① App
   - ② SearchBar
   - ③ ProductTable
