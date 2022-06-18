@@ -5,6 +5,7 @@ aiueo is lol.
 ### Architecture
 #### Mock
 ##### Phase 1
+![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg?token=GHSAT0AAAAAABSOVKPWKUT5IH6GIZ4NBKKAYVNNRBA)
 ![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg?token=GHSAT0AAAAAABSOVKPXHONNWQN6CQDD7PYKYVNNEKA)
 
 # Getting Started with Create React App
