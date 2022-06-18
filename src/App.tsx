@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StandardImageList from './StandardImageList';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -10,6 +13,10 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Stack spacing={2}>
+          <Button variant="contained">Hello World</Button>
+        </Stack>
+        <StandardImageList />
         <a
           className="App-link"
           href="https://reactjs.org"
