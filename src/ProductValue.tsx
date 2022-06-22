@@ -4,7 +4,7 @@ import ImageListItem from '@mui/material/ImageListItem';
 
 function ProductValue({ itemData }: {itemData: any}) {
   return (
-    <ImageList sx={{ width: 1500, height: 450 }} cols={3} rowHeight={164}>
+    <ImageList sx={{ width: 1500, height: 850 }} cols={10} rowHeight={230}>
       {itemData.map((item: any) => (
         <ImageListItem key={item.img}>
           <img
