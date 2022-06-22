@@ -1,5 +1,5 @@
 import React from 'react';
-import StandardImageList from './ProductValue';
+import ProductValue from './ProductValue';
 
 function ProductTable() {
   return (
