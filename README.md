@@ -3,8 +3,10 @@ aiueo is lol.
 
 ## Dev
 ### Architecture
-#### Mock
-##### Phase 1
+xxx
+
+### Mock
+#### Phase 1
 ![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg)  
 ![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg)  
 - ① App
