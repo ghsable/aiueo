@@ -1,13 +1,13 @@
 {
-  "files": {
-    "main.css": "/aiueo/static/css/main.5ebe2f32.css",
-    "main.js": "/aiueo/static/js/main.8ca20a2f.js",
-    "index.html": "/aiueo/index.html",
-    "main.5ebe2f32.css.map": "/aiueo/static/css/main.5ebe2f32.css.map",
-    "main.8ca20a2f.js.map": "/aiueo/static/js/main.8ca20a2f.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.5ebe2f32.css",
-    "static/js/main.8ca20a2f.js"
-  ]
+  "main.css": "/aiueo/static/css/main.8bb63cc8.chunk.css",
+  "main.js": "/aiueo/static/js/main.945ef513.chunk.js",
+  "main.js.map": "/aiueo/static/js/main.945ef513.chunk.js.map",
+  "static/js/1.887febeb.chunk.js": "/aiueo/static/js/1.887febeb.chunk.js",
+  "static/js/1.887febeb.chunk.js.map": "/aiueo/static/js/1.887febeb.chunk.js.map",
+  "runtime~main.js": "/aiueo/static/js/runtime~main.554a36f4.js",
+  "runtime~main.js.map": "/aiueo/static/js/runtime~main.554a36f4.js.map",
+  "static/css/main.8bb63cc8.chunk.css.map": "/aiueo/static/css/main.8bb63cc8.chunk.css.map",
+  "index.html": "/aiueo/index.html",
+  "precache-manifest.e14645a28c7f8461215c08e8139eda65.js": "/aiueo/precache-manifest.e14645a28c7f8461215c08e8139eda65.js",
+  "service-worker.js": "/aiueo/service-worker.js"
 }
