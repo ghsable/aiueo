@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import SearchBar from './SearchBar';
-import StandardImageList from './StandardImageList';
+import ProductTable from './ProductTable';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <SearchBar />
       </header>
-        <StandardImageList />
+        <ProductTable />
     </div>
   );
 }
