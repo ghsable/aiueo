@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import StandardImageList from './StandardImageList';
 import SearchBar from './SearchBar';
+import StandardImageList from './StandardImageList';
 
 function App() {
   return (
