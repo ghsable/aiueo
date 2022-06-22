@@ -1,10 +1,11 @@
 import React from 'react';
 import ProductValue from './ProductValue';
+import itemData from './data/itemData.json';
 
 function ProductTable() {
   return (
     <div className="ProductTable">
-      <ProductValue />
+      <ProductValue itemData={itemData} />
     </div>
   );
 }
