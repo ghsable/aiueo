@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
+import Stack from 'react-bootstrap/Stack';
 import StandardImageList from './StandardImageList';
-import CustomizedInputBase from './CustomizedInputBase';
+import SearchBar from './SearchBar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CustomizedInputBase />
-        <StandardImageList />
+        <SearchBar />
       </header>
+        <StandardImageList />
     </div>
   );
 }
