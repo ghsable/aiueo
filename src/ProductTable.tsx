@@ -1,10 +1,10 @@
 import React from 'react';
-import StandardImageList from './StandardImageList';
+import StandardImageList from './ProductValue';
 
 function ProductTable() {
   return (
     <div className="ProductTable">
-      <StandardImageList />
+      <ProductValue />
     </div>
   );
 }
