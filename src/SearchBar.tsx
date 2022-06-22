@@ -4,7 +4,7 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 
-export default function SearchBar() {
+function SearchBar() {
   return (
     <Paper
       component="form"
@@ -21,3 +21,5 @@ export default function SearchBar() {
     </Paper>
   );
 }
+
+export default SearchBar;
