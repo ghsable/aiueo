@@ -13,7 +13,7 @@ function SearchBar() {
       <InputBase
         sx={{ ml: 1, flex: 1 }}
         placeholder="... φ(．．)"
-        inputProps={{ 'aria-label': 'search google maps' }}
+        inputProps={{ 'aria-label': 'search product' }}
       />
       <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
         <SearchIcon />
