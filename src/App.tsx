@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Stack from 'react-bootstrap/Stack';
 import StandardImageList from './StandardImageList';
 import SearchBar from './SearchBar';
 
