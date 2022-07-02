@@ -4,7 +4,7 @@ import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 
-function SearchBar() {
+function SearchBar({ filterText }: { filterText: string }) {
   return (
     <Paper
       component="form"
@@ -14,6 +14,7 @@ function SearchBar() {
         sx={{ ml: 1, flex: 1 }}
         placeholder="... φ(．．)"
         inputProps={{ 'aria-label': 'search product' }}
+        value={ filterText }
       />
       <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
         <SearchIcon />
