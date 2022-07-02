@@ -5,7 +5,7 @@ import PRODUCTS from './data/PRODUCTS.json';
 function ProductTable() {
   return (
     <div className="ProductTable">
-      <ProductValue itemData={PRODUCTS} />
+      <ProductValue PRODUCTS={PRODUCTS} />
     </div>
   );
 }
