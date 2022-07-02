@@ -11,10 +11,10 @@ function App({ products }: { products: any }, { filterText = 'B' }: { filterText
           filterText={ filterText }
         />
       </header>
-        <ProductTable
-          products={ products }
-          filterText={ filterText }
-        />
+      <ProductTable
+        products={ products }
+        filterText={ filterText }
+      />
     </div>
   );
 }
