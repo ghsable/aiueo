@@ -3,13 +3,13 @@ import './App.css';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 
-function App() {
+function App({ products }: {products: any}) {
   return (
     <div className="App">
       <header className="App-header">
         <SearchBar />
       </header>
-        <ProductTable />
+        <ProductTable products={products}/>
     </div>
   );
 }
