@@ -3,13 +3,18 @@ import './App.css';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 
-function App({ products }: {products: any}) {
+function App({ products }: { products: any }, { filterText = 'HELLO' }: { filterText: string }) {
   return (
     <div className="App">
       <header className="App-header">
-        <SearchBar />
+        <SearchBar
+          filterText={ filterText }
+        />
       </header>
-        <ProductTable products={products}/>
+        <ProductTable
+          products={ products }
+          filterText={ filterText }
+        />
     </div>
   );
 }
