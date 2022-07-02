@@ -2,10 +2,10 @@ import React from 'react';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
-function ProductValue({ PRODUCTS }: {PRODUCTS: any}) {
+function ProductValue({ products }: {products: any}) {
   return (
     <ImageList sx={{ width: 1000, height: 850 }} cols={7} rowHeight={230}>
-      {PRODUCTS.map((product: any) => (
+      {products.map((product: any) => (
         <ImageListItem key={product.img}>
           <img
             src={`${product.img}?w=164&h=164&fit=crop&auto=format`}
