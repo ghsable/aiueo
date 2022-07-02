@@ -1,11 +1,10 @@
 import React from 'react';
 import ProductValue from './ProductValue';
-import PRODUCTS from './data/PRODUCTS.json';
 
-function ProductTable() {
+function ProductTable({ products }: {products: any}) {
   return (
     <div className="ProductTable">
-      <ProductValue PRODUCTS={PRODUCTS} />
+      <ProductValue products={products} />
     </div>
   );
 }
