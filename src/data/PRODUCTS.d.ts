@@ -1,4 +1,4 @@
 export type Products = {
-  img: string;
-  title: string;
+  readonly img: string;
+  readonly title: string;
 }
