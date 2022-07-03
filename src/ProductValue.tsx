@@ -1,7 +1,8 @@
 import React from 'react';
 import ImageListItem from '@mui/material/ImageListItem';
+import { Products } from './data/PRODUCTS';
 
-function ProductValue({ product }: { product: any }) {
+function ProductValue({ product }: { product: Products }) {
   return (
     <ImageListItem key={product.img}>
       <img
