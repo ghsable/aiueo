@@ -13,8 +13,15 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
     >
       <InputBase
         autoFocus={ true }
-        inputProps={{ 'aria-label': 'search product' }}
-        sx={{ ml: 1, flex: 1 }}
+        inputProps={{
+          'aria-label': 'search product',
+          'mimlength': '0',
+          'maxlength': '38'
+        }}
+        sx={{
+          ml: 1,
+          flex: 1
+        }}
         placeholder="... φ(．．)"
         value={ filterText }
         onChange={ handleFilterTextChange }
