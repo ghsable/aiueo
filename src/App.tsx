@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
-import { Products } from './data/PRODUCTS';
+import { Products } from './data/Products';
 import { HandleFilterTextChange } from './HandleFilterTextChange';
 
 function App({ products }: { products: Array<Products> }) {
