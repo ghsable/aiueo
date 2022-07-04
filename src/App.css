@@ -4,7 +4,7 @@
   background-color: #282c34;
   color: white;
   font-size: calc(10px + 2vmin);
-  min-height: 105vh;
+  min-height: 100vh;
   /* flex */
   display: flex;
   justify-content: center;
