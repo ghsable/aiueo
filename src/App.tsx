@@ -3,10 +3,11 @@ import './App.css';
 import SearchBar from './SearchBar';
 import ProductTable from './ProductTable';
 import { Products } from './data/PRODUCTS';
+import { HandleFilterTextChange } from './HandleFilterTextChange';
 
 function App({ products }: { products: Array<Products> }) {
   const [filterText, setFilterText] = useState('');
-  const handleFilterTextChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleFilterTextChange: HandleFilterTextChange = (event) => {
     setFilterText(event.target.value);
   };
 
