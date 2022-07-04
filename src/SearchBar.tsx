@@ -3,8 +3,10 @@ import Paper from '@mui/material/Paper';
 import InputBase from '@mui/material/InputBase';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
+import { HandleFilterTextChange } from './HandleFilterTextChange';
 
-function SearchBar({ filterText, handleFilterTextChange = (n: number) => n }: { filterText: string, handleFilterTextChange: any }) {
+function SearchBar({ filterText, handleFilterTextChange }: { filterText: string, handleFilterTextChange: HandleFilterTextChange }) {
+  console.log(handleFilterTextChange)
   return (
     <Paper
       component="form"
