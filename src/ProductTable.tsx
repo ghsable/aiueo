@@ -19,7 +19,11 @@ function ProductTable({ products, filterText }: { products: Array<Products>, fil
 
   return (
     <div className="ProductTable">
-      <ImageList sx={{ width: 1000, height: 850 }} cols={ 7 } rowHeight={ 230 }>
+      <ImageList
+        cols={ 7 }
+        rowHeight={ 200 }
+        sx={{ width: 1000, height: 810 }}
+      >
         { filterProducts }
       </ImageList>
     </div>
