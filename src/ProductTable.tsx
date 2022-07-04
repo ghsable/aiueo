@@ -23,7 +23,7 @@ function ProductTable({ products, filterText }: { products: Array<Products>, fil
         cols={ 7 }
         rowHeight={ 200 }
         gap={ 2 }
-        sx={{ width: 1000, height: 810 }}
+        sx={{ width: 1000, height: 'auto' }}
         variant={ 'standard' }
       >
         { filterProducts }
