@@ -24,6 +24,7 @@ function ProductTable({ products, filterText }: { products: Array<Products>, fil
         rowHeight={ 200 }
         gap={ 2 }
         sx={{ width: 1000, height: 810 }}
+        variant={ 'standard' }
       >
         { filterProducts }
       </ImageList>
