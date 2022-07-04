@@ -13,7 +13,12 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
         p: '2px 4px',
         display: 'flex',
         alignItems: 'center',
-        width: 400
+        width: 400,
+        backgroundColor: 'rgba(255, 255, 255, 0.15)',
+        '&:focus-within': {
+          backgroundColor: 'white',
+          outline: '#42a5f5 solid 1px'
+        }
       }}
     >
       <InputBase
