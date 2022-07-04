@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import ProductValue from './ProductValue';
 import ImageList from '@mui/material/ImageList';
-import { Products } from './data/PRODUCTS';
+import { Products } from './data/Products';
 
 function ProductTable({ products, filterText }: { products: Array<Products>, filterText: string }) {
   const filterProducts: Array<ReactElement> = [];
