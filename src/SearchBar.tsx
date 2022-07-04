@@ -6,7 +6,6 @@ import SearchIcon from '@mui/icons-material/Search';
 import { HandleFilterTextChange } from './HandleFilterTextChange';
 
 function SearchBar({ filterText, handleFilterTextChange }: { filterText: string, handleFilterTextChange: HandleFilterTextChange }) {
-  console.log(handleFilterTextChange)
   return (
     <Paper
       sx={{
