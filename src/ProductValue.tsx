@@ -1,6 +1,6 @@
 import React from 'react';
 import ImageListItem from '@mui/material/ImageListItem';
-import { Products } from './data/PRODUCTS';
+import { Products } from './data/Products';
 
 function ProductValue({ product }: { product: Products }) {
   return (
