@@ -24,8 +24,8 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
         autoFocus={ true }
         inputProps={{
           'aria-label': 'search product',
-          'mimlength': '0',
-          'maxlength': '38'
+          'minLength': '0',
+          'maxLength': '38'
         }}
         sx={{
           ml: 1,
