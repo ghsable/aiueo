@@ -19,7 +19,7 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
         value={ filterText }
         onChange={ handleFilterTextChange }
       />
-      <IconButton type="submit" sx={{ p: '10px' }} aria-label="search">
+      <IconButton sx={{ p: '10px' }} aria-label="search">
         <SearchIcon />
       </IconButton>
     </Paper>
