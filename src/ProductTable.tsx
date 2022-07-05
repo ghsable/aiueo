@@ -8,7 +8,7 @@ function ProductTable({ products, filterText }: { products: Array<Products>, fil
   products.forEach((product: Products, i: number) => {
     if (filterText === ' ' ||
         product.title.indexOf(filterText) === -1) {
-          return;
+      return;
     }
     filterProducts.push(
       <ProductValue
