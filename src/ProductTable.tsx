@@ -6,8 +6,9 @@ import { Products } from './data/Products';
 function ProductTable({ products, filterText }: { products: Array<Products>, filterText: string }) {
   const filterProducts: Array<ReactElement> = [];
   products.map((product: Products, i: number) => {
-    if (product.title.indexOf(filterText) === -1) {
-      return;
+    if (filterText === ' ' ||
+        product.title.indexOf(filterText) === -1) {
+          return;
     }
     filterProducts.push(
       <ProductValue
