@@ -15,6 +15,7 @@
     "@types/node": "^16.11.40",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:eslint": "eslint . --ext ts,tsx",
+    "fix:eslint": "eslint . --ext ts,tsx --fix"
   },
   "eslintConfig": {
     "extends": [
