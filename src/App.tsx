@@ -9,7 +9,7 @@ function App({ products }: { products: Array<Products> }) {
   const [filterText, setFilterText] = useState('');
   const handleFilterTextChange: HandleFilterTextChange = (event) => {
     setFilterText(event.target.value);
-  }
+  };
 
   return (
     <div className="App">
