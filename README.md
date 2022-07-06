@@ -1,5 +1,5 @@
 # aiueo
-[![Build](https://github.com/ghsable/aiueo/actions/workflows/main.yml/badge.svg)](https://github.com/ghsable/aiueo/actions/workflows/main.yml)  
+[![Main](https://github.com/ghsable/aiueo/actions/workflows/main.yml/badge.svg)](https://github.com/ghsable/aiueo/actions/workflows/main.yml)  
 aiueo is lol.
 
 ## Dev
