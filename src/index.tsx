@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App products={ PRODUCTS } />
+    <App products={PRODUCTS} />
   </React.StrictMode>
 );
 

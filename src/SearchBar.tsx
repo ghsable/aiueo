@@ -5,7 +5,13 @@ import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import { HandleFilterTextChange } from './HandleFilterTextChange';
 
-function SearchBar({ filterText, handleFilterTextChange }: { filterText: string, handleFilterTextChange: HandleFilterTextChange }) {
+function SearchBar({
+  filterText,
+  handleFilterTextChange
+}: {
+  filterText: string;
+  handleFilterTextChange: HandleFilterTextChange;
+}) {
   return (
     <Paper
       sx={{
@@ -21,24 +27,21 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
       }}
     >
       <InputBase
-        autoFocus={ true } // eslint-disable-line jsx-a11y/no-autofocus
+        autoFocus={true} // eslint-disable-line jsx-a11y/no-autofocus
         inputProps={{
           'aria-label': 'search product',
-          'minLength': '0',
-          'maxLength': '38'
+          minLength: '0',
+          maxLength: '38'
         }}
         sx={{
           ml: 1,
           flex: 1
         }}
         placeholder="... φ(．．)"
-        value={ filterText }
-        onChange={ handleFilterTextChange }
+        value={filterText}
+        onChange={handleFilterTextChange}
       />
-      <IconButton
-        sx={{ p: '10px' }}
-        aria-label="search"
-      >
+      <IconButton sx={{ p: '10px' }} aria-label="search">
         <SearchIcon />
       </IconButton>
     </Paper>

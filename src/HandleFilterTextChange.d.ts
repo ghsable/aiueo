@@ -1,1 +1,3 @@
-export type HandleFilterTextChange = (event: React.ChangeEvent<HTMLInputElement>) => void;
+export type HandleFilterTextChange = (
+  event: React.ChangeEvent<HTMLInputElement>
+) => void;

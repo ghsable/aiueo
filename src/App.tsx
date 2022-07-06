@@ -15,14 +15,11 @@ function App({ products }: { products: Array<Products> }) {
     <div className="App">
       <header className="App-header">
         <SearchBar
-          filterText={ filterText }
-          handleFilterTextChange={ handleFilterTextChange }
+          filterText={filterText}
+          handleFilterTextChange={handleFilterTextChange}
         />
       </header>
-      <ProductTable
-        products={ products }
-        filterText={ filterText }
-      />
+      <ProductTable products={products} filterText={filterText} />
     </div>
   );
 }
