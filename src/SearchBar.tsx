@@ -21,7 +21,7 @@ function SearchBar({ filterText, handleFilterTextChange }: { filterText: string,
       }}
     >
       <InputBase
-        autoFocus={ true }
+        autoFocus={ true } // eslint-disable-line jsx-a11y/no-autofocus
         inputProps={{
           'aria-label': 'search product',
           'minLength': '0',
