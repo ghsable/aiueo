@@ -8,9 +8,9 @@
 1. [Use this template](https://github.com/ghsable/searchForA/generate).
 2. Update files.
     - `src/data/PRODUCTS.json`
-    - `public/*`
+    - `public/`
 
-## Components
+## Components(`src/`)
 ![view.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/svg/view.svg)  
 - ① App
   - ② SearchBar
