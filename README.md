@@ -10,7 +10,7 @@ searchForA ... ?
     - `src/data/PRODUCTS.json`
     - `public/*`
 
-## Component
+## Components
 ![view.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/svg/view.svg)  
 - ① App
   - ② SearchBar
