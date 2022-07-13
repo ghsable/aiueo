@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/aiueo/static/css/main.119f491a.css",
-    "main.js": "/aiueo/static/js/main.2d0c4eeb.js",
-    "index.html": "/aiueo/index.html",
-    "main.119f491a.css.map": "/aiueo/static/css/main.119f491a.css.map",
-    "main.2d0c4eeb.js.map": "/aiueo/static/js/main.2d0c4eeb.js.map"
+    "main.css": "/searchForA/static/css/main.119f491a.css",
+    "main.js": "/searchForA/static/js/main.2d0c4eeb.js",
+    "index.html": "/searchForA/index.html",
+    "main.119f491a.css.map": "/searchForA/static/css/main.119f491a.css.map",
+    "main.2d0c4eeb.js.map": "/searchForA/static/js/main.2d0c4eeb.js.map"
   },
   "entrypoints": [
     "static/css/main.119f491a.css",
