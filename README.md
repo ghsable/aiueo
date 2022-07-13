@@ -1,15 +1,17 @@
-# aiueo
-[![Main](https://github.com/ghsable/aiueo/actions/workflows/main.yml/badge.svg)](https://github.com/ghsable/aiueo/actions/workflows/main.yml)  
-aiueo is lol.
+# searchForA
+[![Main](https://github.com/ghsable/searchForA/actions/workflows/main.yml/badge.svg)](https://github.com/ghsable/searchForA/actions/workflows/main.yml)  
+searchForA ... ?
 
-## Dev
-### Architecture
-xxx
+![overview.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/phase1/overview.svg)  
 
-### Mock
-#### Phase 1
-![overview.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/overview.svg)  
-![view.svg](https://raw.githubusercontent.com/ghsable/aiueo/main/.readme/phase1/view.svg)  
+## Usage
+1. Use this template.
+2. Update files.
+    - `src/data/PRODUCTS.json`
+    - `public/*`
+
+## Component
+![view.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/phase1/view.svg)  
 - ① App
   - ② SearchBar
   - ③ ProductTable
