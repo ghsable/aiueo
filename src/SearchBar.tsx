@@ -37,7 +37,7 @@ function SearchBar({
           ml: 1,
           flex: 1
         }}
-        placeholder="... φ(．．)"
+        placeholder="Search for a ..."
         value={filterText}
         onChange={handleFilterTextChange}
       />
