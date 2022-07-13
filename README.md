@@ -2,7 +2,7 @@
 [![Main](https://github.com/ghsable/searchForA/actions/workflows/main.yml/badge.svg)](https://github.com/ghsable/searchForA/actions/workflows/main.yml)  
 searchForA ... ?
 
-![overview.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/phase1/overview.svg)  
+![overview.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/svg/overview.svg)  
 
 ## Usage
 1. Use this template.
@@ -11,7 +11,7 @@ searchForA ... ?
     - `public/*`
 
 ## Component
-![view.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/phase1/view.svg)  
+![view.svg](https://raw.githubusercontent.com/ghsable/searchForA/main/.readme/svg/view.svg)  
 - ① App
   - ② SearchBar
   - ③ ProductTable
